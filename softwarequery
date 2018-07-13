@@ -1,0 +1,21 @@
+Let's try some coding part if u want to write a hello word on crystal then see code.    
+
+puts "hello world!"
+class softwarequery
+def sinitialize)(@name: string)
+end
+def software
+puts "hello #{@name}!"
+end
+end
+g = softwarequery.new("world")
+g.software
+HTTP server
+require "http/server"
+server = HTTP:: Server.new do |context|
+         context.response.content_type = "text/plain"
+         context.response.print "hello software Query"
+      end
+    address = server.bind_tcp 8080
+      puts   "Listing on http://{address}"
+      server.listen
